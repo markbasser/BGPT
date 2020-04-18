@@ -235,7 +235,7 @@ async def on_message(message):
         [await q.add_reaction(i) for i in ('💩', '💩')]  # for文の内包表記
 
    
-elif message.content == "baka":
+    elif message.content == "baka":
         # リアクションアイコンを付けたい
         q = await message.channel.send(" /tip dappuncoin 9314 "f"{message.author.mention}  !😡🚫:warning:💩")
         [await q.add_reaction(i) for i in ('💩', '💩')]  # for文の内包表記   
