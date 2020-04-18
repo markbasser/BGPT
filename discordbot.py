@@ -63,8 +63,19 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん Good Night! Have a good dream♡")  # f文字列（フォーマット済み文字列リテラル）
 
-
+    if message.content == "sb/jpyn":
+        # チャンネルへメッセージを送信
+        await message.channel.send("/tip JPYN 10 "f"{message.author.mention}　 🔑<:JPYNdisco:698471276498649168> ")  # f文字列（フォーマット済み文字列リテラル）
        
+    if message.content == "sb/ben":
+        # チャンネルへメッセージを送信
+        await message.channel.send("/tip BEN 100 "f"{message.author.mention}　　🔑<:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>  Thank you♡")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "sb/bgpt":
+        # チャンネルへメッセージを送信
+        await message.channel.send("/tip BGPT 1000 "f"{message.author.mention}　 🔑<:BGPT02:698471366004965406> Thank you♡")  # f文字列（フォーマット済み文字列リテラル）
+    
+    
     elif message.content == "b/link":
         # リアクションアイコンを付けたい
         q = await message.channel.send("/link ")
