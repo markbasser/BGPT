@@ -38,35 +38,35 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん ☆おはようございます☆")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "/tip bgpt 500 @BGPT(BG-Point)":
+    if message.content == "/tip bgpt 500 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip ben 50 {message.author.mention}  \n Swapped from BGPT500<:BGPT02:698471366004965406> to BEN500<:BENKEICOIN04:698471407650209832> .　" )  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "/tip bgpt 1000 @BGPT(BG-Point)":
+    if message.content == "/tip bgpt 1000 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip ben 100 {message.author.mention}   \n Swapped from BGPT1000<:BGPT02:698471366004965406> to BEN100<:BENKEICOIN04:698471407650209832>")  # f文字列（フォーマット済み文字列リテラル）
  
-    if message.content == "/tip ben 100 @BGPT(BG-Point)":
+    if message.content == "/tip ben 100 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip bgpt 1000 {message.author.mention}   \n Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "/tip ben 500 @BGPT(BG-Point)":
+    if message.content == "/tip ben 500 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip bgpt 5000 {message.author.mention}  \n Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "/tip BGPT 500 @BGPT(BG-Point)":
+    if message.content == "/tip BGPT 500 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip ben 50 {message.author.mention}   \n Swapped from BGPT500<:BGPT02:698471366004965406> to BEN500<:BENKEICOIN04:698471407650209832> .　" )  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "/tip BGPT 1000 @BGPT(BG-Point)":
+    if message.content == "/tip BGPT 1000 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip ben 100 {message.author.mention}   \n Swapped from BGPT1000<:BGPT02:698471366004965406> to BEN100<:BENKEICOIN04:698471407650209832>")  # f文字列（フォーマット済み文字列リテラル）
  
-    if message.content == "/tip BEN 100 @BGPT(BG-Point)":
+    if message.content == "/tip BEN 100 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip bgpt 1000 {message.author.mention}  \n Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "/tip BEN 500 @BGPT(BG-Point)":
+    if message.content == "/tip BEN 500 <@700134903311761460>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"/tip bgpt 5000 {message.author.mention}   \n Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
