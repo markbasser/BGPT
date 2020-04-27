@@ -38,30 +38,38 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん ☆おはようございます☆")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "Good evening":
+    if message.content == "/tip bgpt 500 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん　Good evening～☆" )  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip ben 50 {message.author.mention}  Swapped from BGPT500<:BGPT02:698471366004965406> to BEN500<:BENKEICOIN04:698471407650209832> .　" )  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "Hello!":
+    if message.content == "/tip bgpt 1000 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention} ☆༺.Hello All.Everyone! Thank you!☆")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip ben 100 {message.author.mention}  Swapped from BGPT1000<:BGPT02:698471366004965406> to BEN100<:BENKEICOIN04:698471407650209832>")  # f文字列（フォーマット済み文字列リテラル）
  
-    if message.content == "こんこん":
+    if message.content == "/tip ben 100 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん こんにちは☺️楽しんで！")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip bgpt 1000 {message.author.mention}  Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
-
-    if message.content == "HEY":
+    if message.content == "/tip ben 500 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん HEY😃🎵")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip bgpt 5000 {message.author.mention}  Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "おはっ":
+    if message.content == "/tip BGPT 500 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん GoodMorning♡")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip ben 50 {message.author.mention}  Swapped from BGPT500<:BGPT02:698471366004965406> to BEN500<:BENKEICOIN04:698471407650209832> .　" )  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "そろそろ寝ます":
+    if message.content == "/tip BGPT 1000 @༺.BEGPT.༻":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん Good Night! Have a good dream♡")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"/tip ben 100 {message.author.mention}  Swapped from BGPT1000<:BGPT02:698471366004965406> to BEN100<:BENKEICOIN04:698471407650209832>")  # f文字列（フォーマット済み文字列リテラル）
+ 
+    if message.content == "/tip BEN 100 @༺.BEGPT.༻":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"/tip bgpt 1000 {message.author.mention}  Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
+
+    if message.content == "/tip BEN 500 @༺.BEGPT.༻":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"/tip bgpt 5000 {message.author.mention}  Swapped from BEN100<:BENKEICOIN04:698471407650209832> to BGPT1000<:BGPT02:698471366004965406> ")  # f文字列（フォーマット済み文字列リテラル）
+
 
     if message.content == "sb/jpyn":
         # チャンネルへメッセージを送信
