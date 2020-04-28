@@ -130,7 +130,17 @@ async def on_message(message):
     elif message.content == "b/sprtszan":
         # リアクションアイコンを付けたい
         q = await message.channel.send(" /info sprts ")
-        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記   
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+        
+    elif message.content == "b/29zan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info 29coin ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+        
+    elif message.content == "b/dappunzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info dappuncoin ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
      
     
     elif message.content == "b/rain":
